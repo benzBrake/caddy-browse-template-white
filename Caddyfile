@@ -1,0 +1,8 @@
+:80 {
+    root /wwwroot
+    browse / /wwwroot/.files/browse.tpl
+    markdown / {
+        ext .md
+        template /wwwroot/.files/markdown.tpl
+    }
+}
