@@ -32,10 +32,10 @@
 ```
 :80 {
     root /wwwroot
-    browse / /wwwroot/.files/browse.tpl
+    browse / /.files/browse.tpl
     markdown / {
         ext .md
-        template /wwwroot/.files/markdown.tpl
+        template /.files/markdown.tpl
     }
 }
 ```
